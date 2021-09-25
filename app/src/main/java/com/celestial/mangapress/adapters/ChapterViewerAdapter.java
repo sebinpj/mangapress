@@ -9,8 +9,6 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.load.model.GlideUrl;
-import com.bumptech.glide.load.model.LazyHeaders;
 import com.celestial.mangapress.R;
 import com.squareup.picasso.OkHttp3Downloader;
 import com.squareup.picasso.Picasso;
@@ -25,11 +23,6 @@ public class ChapterViewerAdapter extends RecyclerView.Adapter<ChapterViewerAdap
     private final List<String> images;
     Picasso picasso;
 
-    public static GlideUrl getUrlWithHeaders(String url) {
-        return new GlideUrl(url, new LazyHeaders.Builder()
-                .addHeader("referer", "https://manganeto.com/")
-                .build());
-    }
 
     public ChapterViewerAdapter(Context mContext, List<String> images) {
         this.mContext = mContext;
@@ -37,7 +30,7 @@ public class ChapterViewerAdapter extends RecyclerView.Adapter<ChapterViewerAdap
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(chain -> {
                     Request newRequest = chain.request().newBuilder()
-                            .addHeader("referer", "https://manganeto.com/")
+                            .addHeader("referer", "https://manganelo.com/")
                             .build();
                     return chain.proceed(newRequest);
                 })
@@ -59,7 +52,6 @@ public class ChapterViewerAdapter extends RecyclerView.Adapter<ChapterViewerAdap
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         String image = images.get(position);
-//        Glide.with(mContext).asBitmap().load(getUrlWithHeaders(image)).into(holder.imageView);
         picasso
                 .load(image)
                 .placeholder(R.drawable.default_image_thumbnail)
