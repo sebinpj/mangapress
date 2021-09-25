@@ -4,9 +4,16 @@ MangaPress is a manga reader app that comes with the ability to search / find an
 
 ## Download
 
+
+
 ## Screenshots
 
-
+![Screenshot 1](https://i.postimg.cc/bJQgtCFH/mangapress-1.jpg
+ "Screenshot 1")
+![Screenshot 2](https://i.postimg.cc/3RM9W59x/mangapress-2.jpg
+ "Screenshot 2")
+![Screenshot 3](https://i.postimg.cc/vmx3QHrK/mangapress-3.jpg
+ "Screenshot 3")
 
 
 ## What happens under the hood
