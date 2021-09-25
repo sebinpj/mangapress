@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MangaPress</string>
+    <string name="text_input">URL</string>
+    <string name="button_text">Click ME</string>
+    <string name="popular_items">Saved Items</string>
+    <string name="latest_releases">Latest Releases</string>
+    <string name="sort">Sort</string>
+    <string name="more">View More</string>
+    <string name="loadin">Loading...</string>
+    <string name="manga_search">Search Manga</string>
+    <string name="manga_search_hint" />
+    <string name="title_activity_manga_search">manga_search</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="save_manga">Save</string>
+</resources>
