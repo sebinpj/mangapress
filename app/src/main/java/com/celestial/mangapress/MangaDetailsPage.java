@@ -195,7 +195,7 @@ public class MangaDetailsPage extends AppCompatActivity implements ChapterLinksA
             });
         } else {
             setTitle("Fetch failed try again");
-            description.setText("retry this operation");
+            description.setText("retry this operation! by swiping down from the top");
         }
     }
 
