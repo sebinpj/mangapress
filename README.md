@@ -4,6 +4,7 @@ MangaPress is a manga reader app that comes with the ability to search / find an
 
 ## Download
 
+[Download Latest](https://github.com/sebinpj/mangapress/releases)
 
 
 ## Screenshots
