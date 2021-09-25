@@ -2,10 +2,12 @@
 
 MangaPress is a manga reader app that comes with the ability to search / find and read manga's , save them to your saved list and read it on the go
 
+
 ## Download
 
-[Download Latest](https://github.com/sebinpj/mangapress/releases)
+[Download Latest Version](https://github.com/sebinpj/mangapress/releases)
 
+You can find the latest apk under the assets section on releases
 
 ## Screenshots
 
